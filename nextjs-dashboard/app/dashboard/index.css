@@ -1,0 +1,105 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #0a58ca;
+}
+
+header p {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.chat-window {
+    background-color: #fff;
+    border: 2px solid #0a58ca;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.messages {
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+}
+
+.message-input {
+    width: calc(100% - 90px);
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    float: left;
+}
+
+.send-button {
+    width: 80px;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.send-button:hover {
+    background-color: #0a58ca;
+}
+
+.upload-area {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.upload-button {
+    background-color: #0d6efd;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.2s;
+    display: inline-block;
+}
+
+.upload-button:hover {
+    background-color: #0a58ca;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+footer a {
+    color: #0a58ca;
+    transition: color 0.2s;
+}
+
+footer a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
